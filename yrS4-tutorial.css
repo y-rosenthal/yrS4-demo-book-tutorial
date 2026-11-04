@@ -1,0 +1,20 @@
+/* yrS4-tutorial.css: the interactive tutorial of subjexts (this book's own feature; see yrS4-tutorial.js). */
+.yrS4-tut-dim { position: fixed; inset: 0; pointer-events: none; z-index: 2147482990; }
+.yrS4-tut-hole { position: absolute; border-radius: 8px; box-shadow: 0 0 0 100vmax rgba(15, 23, 42, .42); transition: top .2s, left .2s, width .2s, height .2s; outline: 2px solid #f59e0b; }
+.yrS4-tut-dim.nohole { background: rgba(15, 23, 42, .18); }
+.yrS4-tut-card { position: fixed; left: 16px; bottom: 16px; width: min(400px, calc(100vw - 32px)); max-height: 70vh; overflow: auto; background: #fff; color: #111827;
+  border: 1px solid #e5e7eb; border-radius: 10px; box-shadow: 0 12px 32px rgba(0,0,0,.25); padding: 14px 16px; font: 14px/1.45 system-ui, sans-serif; z-index: 2147483010; }
+.yrS4-tut-card h3 { margin: 0 0 6px; font-size: 16px; }
+.yrS4-tut-card p { margin: 6px 0; }
+.yrS4-tut-card .step { color: #6b7280; font-size: 12px; }
+.yrS4-tut-card .acts { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; align-items: center; }
+.yrS4-tut-card button { font: inherit; padding: 5px 12px; border-radius: 6px; border: 1px solid #d1d5db; background: #f9fafb; cursor: pointer; }
+.yrS4-tut-card button.primary { background: #2563eb; border-color: #2563eb; color: #fff; }
+.yrS4-tut-card button.link { border: 0; background: none; color: #6b7280; padding: 5px 4px; }
+.yrS4-tut-card .wait { color: #b45309; font-size: 13px; }
+.yrS4-tut-card .done { color: #047857; font-size: 13px; }
+.yrS4-tut-card a.go { font-weight: 600; }
+.yrS4-tut-card kbd { font: 12px ui-monospace, monospace; background: #f3f4f6; border: 1px solid #e5e7eb; border-radius: 3px; padding: 0 4px; }
+.yrS4-tutorial-start { margin: 12px 0 20px; }
+.yrS4-tutorial-start button { margin-right: 8px; }
+@media (prefers-color-scheme: dark) { .yrS4-tut-card { background: #1f2937; color: #f3f4f6; border-color: #374151; } .yrS4-tut-card button { background: #374151; border-color: #4b5563; color: #f3f4f6; } .yrS4-tut-card kbd { background: #374151; border-color: #4b5563; } }

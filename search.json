@@ -1,0 +1,375 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The yrS4 Demo Book",
+    "section": "",
+    "text": "Preface\nThis is a sample book plugged into subjexts (the teaching layer built in the yrS4 project). It exists so that an author or a teacher who is new to subjexts can see every feature working on real pages before plugging in a book of their own. The five short chapters teach something real, how computers store information, so that the marks, notes and messages on them make sense.\nThe book comes pre-populated: a demo course section with a few demo students, labels published to it, passages marked as covered in class, comments for students, editorial notes, an in-place edit, students’ questions with the instructor’s replies, and reactions. 7  What the demo data shows lists each item and where to find it.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use-this-book",
+    "href": "index.html#how-to-use-this-book",
+    "title": "The yrS4 Demo Book",
+    "section": "How to use this book",
+    "text": "How to use this book\n\nStart the tutorial (1  Interactive tutorial). It walks you through the features on these pages, step by step, and waits for you to try each one.\nSign in with the subjexts button at the bottom right of any page (GitHub). Without signing in you still see what students see: the labels, the legend and the table of contents by label.\nJoin the demo section as a student with the join code yrs4-demo (panel → gear → join code). Then you can send a message to the instructor, react, highlight and take your own notes.\nTeacher access. The teaching features (labels, comments, editorial notes, in-place edits, the Editorial notes tab, the messages inbox, history) need you to be staff of the demo section. Ask Prof. Rosenthal (yrosenthal@gmail.com) and he adds you with one command. The tutorial shows the teaching steps either way.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#where-things-are",
+    "href": "index.html#where-things-are",
+    "title": "The yrS4 Demo Book",
+    "section": "Where things are",
+    "text": "Where things are\n\nThe design of subjexts: the yrS4 project’s book, https://github.com/subjexts/yrS4 (docs/).\nThis book’s source and its demo data: the demo-book/ folder of the yrS4 repository (https://github.com/subjexts/yrS4).\nThe “Table of contents by label” page, right after this one, is drawn by subjexts when the book is viewed.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "subjexts-labels-v001.html",
+    "href": "subjexts-labels-v001.html",
+    "title": "Table of contents by label",
+    "section": "",
+    "text": "Every place in this book that carries a label, under its label, with links. The list is drawn by subjexts from the labels you can see: your instructor’s published labels and your own.\n\nIf this stays empty, subjexts is switched off, or no label you can see has been applied yet.",
+    "crumbs": [
+      "Table of contents by label"
+    ]
+  },
+  {
+    "objectID": "tutorial.html",
+    "href": "tutorial.html",
+    "title": "1  Interactive tutorial",
+    "section": "",
+    "text": "1.1 Everyone\nThe tutorial runs on these pages. It points at each part of subjexts, says what it does, and waits for you to try it before going on. It remembers where you are, so you can follow it across chapters and come back later.\nThe same steps, for reading without the tour:",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Interactive tutorial</span>"
+    ]
+  },
+  {
+    "objectID": "tutorial.html#sec-tutorial-everyone",
+    "href": "tutorial.html#sec-tutorial-everyone",
+    "title": "1  Interactive tutorial",
+    "section": "",
+    "text": "The subjexts button sits at the bottom right of every page and names the section you are viewing. Click it to open the panel.\nSign in in the panel (GitHub). Without signing in you see what students see.\nJoin the section with the code yrs4-demo: panel → gear → “join code from your instructor”.\nMargin lines: thin colored lines beside the text are the instructor’s marks. Hover one for its label and date. The legend under the page title lists the labels on the page.\nTable of contents by label: the page after the preface. Every labeled place, under its label.\nSelect text to get the toolbar: your own highlight, My note, Ask my instructor, two reactions, and ✦ Ask the tutor when the section has it on.\nMessages: your questions and the replies, in the panel.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Interactive tutorial</span>"
+    ]
+  },
+  {
+    "objectID": "tutorial.html#sec-tutorial-teachers",
+    "href": "tutorial.html#sec-tutorial-teachers",
+    "title": "1  Interactive tutorial",
+    "section": "1.2 Teachers",
+    "text": "1.2 Teachers\n\nTeach mode: the switch at the top of the Page tab. Boxes appear beside headings and blocks.\nLabel a block: click its box, pick a label in the popover, or type a new name. Shift+click applies the current label with no popover.\nComment for students and 🔒 Editorial note: select text, choose one in the toolbar.\nEdit text in place: right-click a paragraph → “Edit this text…”, change the Markdown, Save.\nEditorial notes tab: every note and edit, with a link to its passage; Export editorial notes writes the packet an AI applies to the book’s source. The AI edits at once when a note is clear and asks first when it is not; each card shows where the AI is, what it did and the change, with Accept and Redo…, or its question with an answer box.\nMessages: the students’ questions; reply, resolve, or make an editorial note from one.\nShow class activity, ⏱ History, View as student, Students see subjexts: the switches in the Teach bar and the gear.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Interactive tutorial</span>"
+    ]
+  },
+  {
+    "objectID": "01-bits-and-bytes.html",
+    "href": "01-bits-and-bytes.html",
+    "title": "2  Bits and bytes",
+    "section": "",
+    "text": "2.1 What a bit is\nEverything a computer stores is made of the same stuff. This chapter says what that stuff is and how it is counted.\nA bit is the smallest unit of information a computer can store. It has exactly two states, which we write as 0 and 1. Inside the machine the two states are two voltages, two magnetic directions, or two amounts of charge; the computer never cares which, only that it can tell them apart.\nOne bit can answer one yes-or-no question. Is the light on? Is the door locked? Two bits can answer two such questions, or distinguish four cases: 00, 01, 10 and 11. Every extra bit doubles the number of cases.",
+    "crumbs": [
+      "How computers store information",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Bits and bytes</span>"
+    ]
+  },
+  {
+    "objectID": "01-bits-and-bytes.html#sec-bytes",
+    "href": "01-bits-and-bytes.html#sec-bytes",
+    "title": "2  Bits and bytes",
+    "section": "2.2 Bytes",
+    "text": "2.2 Bytes\nA byte is a group of eight bits. Eight bits give 256 different patterns, from 00000000 to 11111111. The byte is the unit most computers use to address memory: every byte in memory has a number, its address, and the processor reads and writes memory one or more bytes at a time.\nWhy eight? Early computers used groups of six, seven or nine bits. Eight won because it holds one character of text with room to spare, and because it is a power of two, which makes the arithmetic of addresses simple.\n\n\n\nUnit\nBits\nPatterns\n\n\n\n\nbit\n1\n2\n\n\nnibble\n4\n16\n\n\nbyte\n8\n256\n\n\nword (32-bit)\n32\nabout 4 billion",
+    "crumbs": [
+      "How computers store information",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Bits and bytes</span>"
+    ]
+  },
+  {
+    "objectID": "01-bits-and-bytes.html#sec-counting-bytes",
+    "href": "01-bits-and-bytes.html#sec-counting-bytes",
+    "title": "2  Bits and bytes",
+    "section": "2.3 Counting bytes",
+    "text": "2.3 Counting bytes\nLarger amounts are counted in thousands of bytes, but there are two ways to count. A kilobyte can mean 1,000 bytes or 1,024 bytes. Hard disk makers use the round number; operating systems often use the power of two. A disk sold as 500 gigabytes shows up as about 465 gibibytes, and nothing is missing.\n\n1 kB = 1,000 bytes; 1 KiB = 1,024 bytes\n1 MB = 1,000,000 bytes; 1 MiB = 1,048,576 bytes\n1 GB = 1,000,000,000 bytes; 1 GiB = 1,073,741,824 bytes\n\n\n\n\n\n\n\nNote\n\n\n\nThe units with an “i” in the middle (KiB, MiB, GiB) are the binary ones. They are precise but rarely used in everyday speech.",
+    "crumbs": [
+      "How computers store information",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Bits and bytes</span>"
+    ]
+  },
+  {
+    "objectID": "01-bits-and-bytes.html#sec-a-byte-in-python",
+    "href": "01-bits-and-bytes.html#sec-a-byte-in-python",
+    "title": "2  Bits and bytes",
+    "section": "2.4 A byte in Python",
+    "text": "2.4 A byte in Python\nYou can see the bits of a number with the bin function, and turn a string of bits back into a number with int:\nprint(bin(200))        # 0b11001000\nprint(int('11001000', 2))   # 200\nprint(bytes([72, 105]))     # b'Hi'\nThe last line shows two bytes whose values happen to be the codes for the letters H and i. The next chapter explains why.",
+    "crumbs": [
+      "How computers store information",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Bits and bytes</span>"
+    ]
+  },
+  {
+    "objectID": "01-bits-and-bytes.html#sec-bits-summary",
+    "href": "01-bits-and-bytes.html#sec-bits-summary",
+    "title": "2  Bits and bytes",
+    "section": "2.5 Summary",
+    "text": "2.5 Summary\nA bit is a two-state unit. A byte is eight bits, 256 patterns, and the unit memory is measured in. Thousands, millions and billions of bytes are counted in two systems, decimal and binary, that differ by a few percent.",
+    "crumbs": [
+      "How computers store information",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Bits and bytes</span>"
+    ]
+  },
+  {
+    "objectID": "02-text.html",
+    "href": "02-text.html",
+    "title": "3  Text",
+    "section": "",
+    "text": "3.1 ASCII\nLetters are not stored as letters. They are stored as numbers, and a table says which number is which letter.\nThe first widely used table was ASCII, from 1963. It assigns the numbers 0 to 127 to the English letters, the digits, punctuation, and some control codes such as “new line” and “tab”. Capital A is 65, lowercase a is 97, the digit 0 is 48, and a space is 32.\nASCII needs only seven bits, so it fits in a byte with one bit left over. For decades that spare bit was used in incompatible ways by different vendors to add accented letters, and a file written on one machine showed garbage on another.",
+    "crumbs": [
+      "How computers store information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Text</span>"
+    ]
+  },
+  {
+    "objectID": "02-text.html#sec-unicode",
+    "href": "02-text.html#sec-unicode",
+    "title": "3  Text",
+    "section": "3.2 Unicode",
+    "text": "3.2 Unicode\nUnicode is one table for every writing system. Each character gets a number called a code point, written like U+0041 for A or U+05D0 for the Hebrew letter alef. The table has room for more than a million code points and today assigns about 150,000, including the emoji.\nThe first 128 code points of Unicode are exactly ASCII, so an old ASCII file is also a valid Unicode file.",
+    "crumbs": [
+      "How computers store information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Text</span>"
+    ]
+  },
+  {
+    "objectID": "02-text.html#sec-utf-8",
+    "href": "02-text.html#sec-utf-8",
+    "title": "3  Text",
+    "section": "3.3 UTF-8",
+    "text": "3.3 UTF-8\nA code point is a number; UTF-8 is the rule for writing that number as bytes. Code points up to 127 take one byte, identical to ASCII. Larger ones take two, three or four bytes. The letter é takes two bytes, a Chinese character takes three, and most emoji take four.\nprint('A'.encode('utf-8'))      # b'A'\nprint('é'.encode('utf-8'))      # b'\\xc3\\xa9'\nprint('😀'.encode('utf-8'))     # b'\\xf0\\x9f\\x98\\x80'\nprint(len('héllo'), len('héllo'.encode('utf-8')))   # 5 6\nThe last line shows the difference between characters and bytes. A string of five characters became six bytes because one of the characters needed two.\n\n\n\n\n\n\nTip\n\n\n\nWhen a program shows “Ã©” where you expected “é”, it read UTF-8 bytes with the wrong table. The bytes are fine; the table was wrong.",
+    "crumbs": [
+      "How computers store information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Text</span>"
+    ]
+  },
+  {
+    "objectID": "02-text.html#sec-line-endings",
+    "href": "02-text.html#sec-line-endings",
+    "title": "3  Text",
+    "section": "3.4 Line endings",
+    "text": "3.4 Line endings\nThe end of a line is a character too. Unix and macOS use one character, line feed (code 10). Windows uses two, carriage return (13) followed by line feed. Most editors handle both, but a file that mixes them can confuse a program that counts lines.",
+    "crumbs": [
+      "How computers store information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Text</span>"
+    ]
+  },
+  {
+    "objectID": "02-text.html#sec-text-summary",
+    "href": "02-text.html#sec-text-summary",
+    "title": "3  Text",
+    "section": "3.5 Summary",
+    "text": "3.5 Summary\nText is numbers plus a table. ASCII is the small old table; Unicode is the big one; UTF-8 is the usual way to write Unicode as bytes, and it keeps ASCII unchanged.",
+    "crumbs": [
+      "How computers store information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Text</span>"
+    ]
+  },
+  {
+    "objectID": "03-numbers.html",
+    "href": "03-numbers.html",
+    "title": "4  Numbers",
+    "section": "",
+    "text": "4.1 Integers\nComputers store two kinds of numbers in two different ways, and the difference explains most of the surprises people meet with arithmetic in programs.\nAn integer is stored as its binary digits, in a fixed number of bits. A 32-bit integer can hold values from about minus two billion to plus two billion. A 64-bit integer goes to about nine quintillion. Ask for a larger number and the value wraps around, which is called overflow.\nNegative numbers use a trick called two’s complement. The highest bit marks the sign, and the rest is arranged so that ordinary addition works without special cases. The arrangement is clever but you rarely need to think about it.\nPython integers are special: they grow as large as needed, so Python never overflows. Most other languages do.",
+    "crumbs": [
+      "How computers store information",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Numbers</span>"
+    ]
+  },
+  {
+    "objectID": "03-numbers.html#sec-floating-point",
+    "href": "03-numbers.html#sec-floating-point",
+    "title": "4  Numbers",
+    "section": "4.2 Floating point",
+    "text": "4.2 Floating point\nA number with a fractional part, like 3.75 or 0.1, is stored in floating point: a sign, a fraction and an exponent, like scientific notation in binary. A 64-bit float keeps about sixteen decimal digits of precision.\nThe catch is that most decimal fractions cannot be written exactly in binary, just as one third cannot be written exactly in decimal. The number 0.1 is stored as the nearest binary fraction, which is very slightly more than 0.1.\nprint(0.1 + 0.2)          # 0.30000000000000004\nprint(0.1 + 0.2 == 0.3)   # False\nprint(round(0.1 + 0.2, 2) == 0.3)   # True\n\n\n\n\n\n\nWarning\n\n\n\nNever compare floats for exact equality, and never store money as a float. Use integers of cents, or a decimal type.",
+    "crumbs": [
+      "How computers store information",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Numbers</span>"
+    ]
+  },
+  {
+    "objectID": "03-numbers.html#sec-when-to-use-which",
+    "href": "03-numbers.html#sec-when-to-use-which",
+    "title": "4  Numbers",
+    "section": "4.3 When to use which",
+    "text": "4.3 When to use which\n\nCounting things: integers.\nMoney: integers of the smallest unit, or a decimal type.\nMeasurements and scientific values: floats.\nIdentifiers such as account numbers: text, not numbers at all, since you never do arithmetic on them and a leading zero matters.",
+    "crumbs": [
+      "How computers store information",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Numbers</span>"
+    ]
+  },
+  {
+    "objectID": "03-numbers.html#sec-numbers-summary",
+    "href": "03-numbers.html#sec-numbers-summary",
+    "title": "4  Numbers",
+    "section": "4.4 Summary",
+    "text": "4.4 Summary\nIntegers are exact within their range; floats cover a huge range with limited precision and tiny rounding errors. Choose by what the number is for.",
+    "crumbs": [
+      "How computers store information",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Numbers</span>"
+    ]
+  },
+  {
+    "objectID": "04-files.html",
+    "href": "04-files.html",
+    "title": "5  Files and folders",
+    "section": "",
+    "text": "5.1 Names and extensions\nA file is a named sequence of bytes. That is the whole definition. Everything else, the type, the icon, the program that opens it, is a convention layered on top.\nA folder is a list of names, each pointing at a file or at another folder. The operating system keeps the list; the files themselves are stored elsewhere on the disk, and a name is only the way to reach them.\nThe part of a file name after the last dot is its extension: report.docx, photo.jpg, notes.txt. The extension is a hint to the operating system about which program to use. It does not change the bytes. Renaming photo.jpg to photo.txt does not make it text; it makes a text editor try to show a picture as text.\nMany systems hide extensions by default. Showing them is one of the first settings a careful person changes, because invoice.pdf.exe with the extension hidden looks like a PDF.",
+    "crumbs": [
+      "How computers store information",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Files and folders</span>"
+    ]
+  },
+  {
+    "objectID": "04-files.html#sec-text-and-binary",
+    "href": "04-files.html#sec-text-and-binary",
+    "title": "5  Files and folders",
+    "section": "5.2 Text files and binary files",
+    "text": "5.2 Text files and binary files\nA text file holds bytes that are meant to be read as characters through a table such as UTF-8. Source code, CSV data, Markdown and HTML are text files. You can open them in any editor.\nA binary file holds bytes that mean something else: pixel values, compressed sound, a spreadsheet’s internal structure. Opening one in a text editor shows noise. Word documents, images and executables are binary files.\n\n\n\nKind\nExamples\nOpen with\n\n\n\n\ntext\n.txt .csv .md .py .html\nany editor\n\n\nbinary\n.docx .jpg .mp3 .exe\nthe program that made it",
+    "crumbs": [
+      "How computers store information",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Files and folders</span>"
+    ]
+  },
+  {
+    "objectID": "04-files.html#sec-folders",
+    "href": "04-files.html#sec-folders",
+    "title": "5  Files and folders",
+    "section": "5.3 Folders",
+    "text": "5.3 Folders\nA folder, or directory, is a file that lists other files. Folders inside folders make a tree, and a path names a place in the tree: /home/ada/projects/report.docx on Unix, C:\\Users\\Ada\\projects\\report.docx on Windows.\nA relative path starts from where you are instead of from the top: projects/report.docx. Two dots mean the folder above: ../photos/cat.jpg.\n\n\n\n\n\n\nNote\n\n\n\nCloud folders such as Dropbox or OneDrive are ordinary folders that a program watches and copies. The files are real files on your disk.",
+    "crumbs": [
+      "How computers store information",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Files and folders</span>"
+    ]
+  },
+  {
+    "objectID": "04-files.html#sec-files-summary",
+    "href": "04-files.html#sec-files-summary",
+    "title": "5  Files and folders",
+    "section": "5.4 Summary",
+    "text": "5.4 Summary\nA file is bytes with a name. The extension is a hint, not a fact. Text files are readable through a character table; binary files are not. Folders are files that list files, and paths name places in the tree.",
+    "crumbs": [
+      "How computers store information",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Files and folders</span>"
+    ]
+  },
+  {
+    "objectID": "05-images-and-sound.html",
+    "href": "05-images-and-sound.html",
+    "title": "6  Images and sound",
+    "section": "",
+    "text": "6.1 Pixels\nPictures and sounds are stored as numbers too. The numbers are measurements taken many times a second or many times per inch.\nA digital image is a grid of pixels. Each pixel has a color, and a color is usually three numbers: how much red, green and blue, each from 0 to 255, which is one byte each. A photo of 4,000 by 3,000 pixels has twelve million pixels and, uncompressed, takes 36 megabytes.\nThat is why images are compressed. PNG compresses without losing anything and suits diagrams and screenshots. JPEG throws away detail the eye does not notice and suits photographs; the same photo becomes two or three megabytes.",
+    "crumbs": [
+      "How computers store information",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Images and sound</span>"
+    ]
+  },
+  {
+    "objectID": "05-images-and-sound.html#sec-vector-graphics",
+    "href": "05-images-and-sound.html#sec-vector-graphics",
+    "title": "6  Images and sound",
+    "section": "6.2 Vector graphics",
+    "text": "6.2 Vector graphics\nA vector image stores shapes instead of pixels: a circle at this center with this radius and this color. SVG is the common format. A vector image can be scaled to any size without blurring, which is why logos and icons are drawn as vectors and photographs are not.",
+    "crumbs": [
+      "How computers store information",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Images and sound</span>"
+    ]
+  },
+  {
+    "objectID": "05-images-and-sound.html#sec-samples",
+    "href": "05-images-and-sound.html#sec-samples",
+    "title": "6  Images and sound",
+    "section": "6.3 Samples",
+    "text": "6.3 Samples\nSound is a pressure wave. To store it, the computer measures the pressure many times a second; each measurement is a sample. A CD uses 44,100 samples per second, each a 16-bit number, for two channels. That is about ten megabytes per minute.\nseconds = 60\nsamples_per_second = 44_100\nbytes_per_sample = 2\nchannels = 2\nprint(seconds * samples_per_second * bytes_per_sample * channels)   # 10584000\nMP3 and AAC compress sound the way JPEG compresses images, by removing what listeners do not hear, and bring a minute down to about one megabyte.",
+    "crumbs": [
+      "How computers store information",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Images and sound</span>"
+    ]
+  },
+  {
+    "objectID": "05-images-and-sound.html#sec-lossless-and-lossy",
+    "href": "05-images-and-sound.html#sec-lossless-and-lossy",
+    "title": "6  Images and sound",
+    "section": "6.4 Lossless and lossy",
+    "text": "6.4 Lossless and lossy\n\nLossless formats (PNG, FLAC, ZIP) give back exactly the original bytes.\nLossy formats (JPEG, MP3, most video) give back something close enough for the purpose, and smaller.\n\nSaving a lossy file again loses a little more each time. Keep an original and export copies from it.",
+    "crumbs": [
+      "How computers store information",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Images and sound</span>"
+    ]
+  },
+  {
+    "objectID": "05-images-and-sound.html#sec-media-summary",
+    "href": "05-images-and-sound.html#sec-media-summary",
+    "title": "6  Images and sound",
+    "section": "6.5 Summary",
+    "text": "6.5 Summary\nImages are grids of color numbers or lists of shapes; sound is a list of pressure samples. Both are large, so both are usually compressed, either without loss or with a loss chosen to be invisible or inaudible.",
+    "crumbs": [
+      "How computers store information",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Images and sound</span>"
+    ]
+  },
+  {
+    "objectID": "06-demo-data.html",
+    "href": "06-demo-data.html",
+    "title": "7  What the demo data shows",
+    "section": "",
+    "text": "7.1 The section and the people\nEvery item below is in the platform’s database for this book, created from demo-book/subjexts-demo.yml in the yrS4 repository with one command (yrS4 demo apply). Re-running the command replaces them, so trying things out here breaks nothing: whatever you add can be swept away and the demo reset.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>What the demo data shows</span>"
+    ]
+  },
+  {
+    "objectID": "06-demo-data.html#sec-demo-people",
+    "href": "06-demo-data.html#sec-demo-people",
+    "title": "7  What the demo data shows",
+    "section": "",
+    "text": "Course “yrS4 Demo”, section 101 (slug demo-101), join code yrs4-demo. Its instructor is Prof. Rosenthal; the AI tutor is off for the section unless he turns it on.\nDemo students Ada, Grace, Linus and Mira. They are accounts that nobody signs in to; their messages, reactions and highlights are what you see in the panel.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>What the demo data shows</span>"
+    ]
+  },
+  {
+    "objectID": "06-demo-data.html#sec-demo-labels",
+    "href": "06-demo-data.html#sec-demo-labels",
+    "title": "7  What the demo data shows",
+    "section": "7.2 Labels",
+    "text": "7.2 Labels\n\n\n\n\n\n\n\n\n\nLabel\nKind\nPublished to the section?\nUsed for\n\n\n\n\nCovered in class\ncoverage\nyes\nsections taught in the two demo class meetings\n\n\nRead on your own\ncoverage\nyes\nsections assigned as reading\n\n\nSkipped in class\ncoverage\nyes\none section the class skipped\n\n\nKey idea\nplain\nyes\nthe sentences a student should remember\n\n\nOn the quiz\nplain\nyes\nwhat the quiz will ask\n\n\nNeeds an example\nplain\nno (private)\nplaces the author wants to improve; invisible to students\n\n\nHidden for everyone\nplain\nno (hides its passages)\na paragraph taken off the page for students and visitors (D54); the section’s teachers see it under a gray hatch\n\n\n\nOpen the Table of contents by label page to see them all at once, or hover a margin line.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>What the demo data shows</span>"
+    ]
+  },
+  {
+    "objectID": "06-demo-data.html#sec-demo-marks",
+    "href": "06-demo-data.html#sec-demo-marks",
+    "title": "7  What the demo data shows",
+    "section": "7.3 Marks on the chapters",
+    "text": "7.3 Marks on the chapters\n\nChapter 2 (Bits and bytes): the sections “What a bit is” and “Bytes” covered in the first meeting; “Counting bytes” read on your own; a comment for students on the kilobyte paragraph; a Key idea on the definition of a bit; a student question (“why eight?”) with the instructor’s reply; three 👍 reactions on the sentence about addressing memory.\nChapter 3 (Text): covered in the second meeting; “Line endings” skipped; On the quiz on the UTF-8 example; a 😕 “I don’t understand” reaction from two students on the code-point paragraph (the instructor sees the count under Show class activity); an open student question about “Ã©”.\nChapter 4 (Numbers): an editorial note (category check-facts) on the 64-bit integer sentence that the AI has already applied and the author accepted (its card shows the AI’s comment, the files, the change, and the verdict), a rewrite note on “Python never overflows” on which the AI asked a question (its card shows the question with an answer box), and an in-place edit of the floating-point summary that the author proposed (shown only to the author, in place, with a dashed line).\nChapter 5 (Files and folders): a private Needs an example label on “Folders”; the paragraph about binary files hidden from students and visitors by the label “Hidden for everyone” (the section’s teachers see it under a gray hatch; nobody else sees that anything is missing); a resolved student question about hidden extensions.\nChapter 6 (Images and sound): assigned as reading; a Key idea on the lossless and lossy list; a student’s own highlight and private note (visible only to that student).",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>What the demo data shows</span>"
+    ]
+  },
+  {
+    "objectID": "06-demo-data.html#sec-demo-try",
+    "href": "06-demo-data.html#sec-demo-try",
+    "title": "7  What the demo data shows",
+    "section": "7.4 What you can do with them",
+    "text": "7.4 What you can do with them\n\nAs a visitor: see the lines, the legend, the hover cards, and the table of contents by label.\nAs a student of the section: ask a question, react, highlight, take a note, use the tutor if it is on.\nAs staff: answer the open questions in Messages, add labels, export the editorial notes as a packet and apply it to this book’s repository with the subjexts-apply-notes skill, look at the history, switch “Students see subjexts” off and on.\n\nThen reset the demo: in the yrS4 repository, node cli/bin/yrS4.mjs demo apply demo-book/subjexts-demo.yml.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>What the demo data shows</span>"
+    ]
+  }
+]
